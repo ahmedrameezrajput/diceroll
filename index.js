@@ -8,7 +8,7 @@ var no2 = Math.floor(Math.random()*6)+1;
 var diceimg2="dice" + no2 + ".png";
 var src2="images/"+diceimg2;
 
-document.querySelectorAll("img")[0].setAttribute("src", src2);
+document.querySelectorAll("img")[1].setAttribute("src", src2);
 
 
 if(no1==no2){
